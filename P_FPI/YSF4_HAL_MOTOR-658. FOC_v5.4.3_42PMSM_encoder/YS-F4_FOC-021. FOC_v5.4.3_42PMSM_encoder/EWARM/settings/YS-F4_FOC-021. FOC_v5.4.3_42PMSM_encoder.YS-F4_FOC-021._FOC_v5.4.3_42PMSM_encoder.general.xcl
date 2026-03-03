@@ -1,0 +1,15 @@
+"D:\IAR\arm\bin\armproc.dll" 
+
+"D:\IAR\arm\bin\armstlink2.dll" 
+
+"D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\Exe\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.out" 
+
+--plugin="D:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader="D:\IAR\arm\config\flashloader\ST\FlashSTM32F4xxx.board" 
+
+
+
+

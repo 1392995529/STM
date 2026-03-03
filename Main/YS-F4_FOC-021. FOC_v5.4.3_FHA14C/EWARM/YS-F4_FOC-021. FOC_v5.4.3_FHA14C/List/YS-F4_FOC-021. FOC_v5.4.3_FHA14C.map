@@ -1,0 +1,1240 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  11/Dec/2025  18:16:26
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Exe\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.out
+#    Map file     =  
+#        D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\List\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.map
+#    Command line =  
+#        -f C:\Users\12190\AppData\Local\Temp\EWB43E.tmp
+#        ("D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\AD7606.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADgpio.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADspi.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADtim.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\bsp_CAN.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\bsp_key.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\bus_voltage_sensor.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\circle_limitation.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\digital_output.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\enc_align_ctrl.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\encoder_speed_pos_fdbk.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\frame_communication_protocol.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\Handwheel_encoder.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\luenberge.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\main.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\Matrx.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_api.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\mc_config.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\mc_interface.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\mc_math.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\mc_parameters.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\mc_position.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\mc_tasks.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\motor_control_protocol.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\motor_power_measurement.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\motorcontrol.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\ntc_temperature_sensor.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\open_loop.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\pid_regulator.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\pqd_motor_power_measurement.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\pwm_common.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\pwm_curr_fdbk.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\r3_2_f4xx_pwm_curr_fdbk.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\r_divider_bus_voltage_sensor.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\ramp_ext_mngr.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\regular_conversion_manager.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\revup_ctrl.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\speed_pos_fdbk.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\speed_torq_ctrl.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\startup_stm32f407xx.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\state_machine.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_adc.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_adc_ex.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_can.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_cortex.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_dma.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_dma_ex.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_exti.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash_ex.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash_ramfunc.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_gpio.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_msp.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_pwr.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_pwr_ex.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_rcc.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_rcc_ex.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_spi.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_tim.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_tim_ex.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_uart.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_it.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\stm32f4xx_mc_it.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\system_stm32f4xx.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\ui_irq_handler.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\ui_task.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\usart_frame_communication_protocol.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\user_interface.o"
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Obj\virtual_speed_sensor.o" --redirect
+#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --no_out_extension -o
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\Exe\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.out" --map
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\List\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.map" --config
+#        "D:\yanjiusheng\STM2\Main\YS-F4_FOC-021.
+#        FOC_v5.4.3_FHA14C\EWARM/stm32f407xx_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = NoFree
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The no free heap was selected because no calls to memory
+deallocation functions were found in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x188
+  .intvec            ro code   0x800'0000   0x188  startup_stm32f407xx.o [1]
+                             - 0x800'0188   0x188
+
+"P1":                                      0x84a5
+  .text              ro code   0x800'0188   0x880  mc_position.o [1]
+  .text              ro code   0x800'0a08    0xe0  mc_tasks.o [1]
+  .text              ro code   0x800'0ae8    0x48  FltToDbl.o [3]
+  .text              ro code   0x800'0b30   0x1a2  DblMul.o [3]
+  .text              ro code   0x800'0cd2    0x7a  lz77_init_single.o [4]
+  .text              ro code   0x800'0d4c   0x17a  DblAdd.o [3]
+  .text              ro code   0x800'0ec6    0x52  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'0f18    0x68  DblToFlt.o [3]
+  .text              ro code   0x800'0f80     0x4  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'0f84     0x6  speed_pos_fdbk.o [1]
+  .text              ro code   0x800'0f8a     0x4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'0f8e    0x3e  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'0fcc    0x48  mc_math.o [1]
+  .text              ro code   0x800'1014    0x68  mc_math.o [1]
+  .text              ro code   0x800'107c    0x80  pid_regulator.o [1]
+  .text              ro code   0x800'10fc    0x56  circle_limitation.o [1]
+  .text              ro code   0x800'1152     0x6  speed_pos_fdbk.o [1]
+  .text              ro code   0x800'1158    0x3e  mc_math.o [1]
+  .text              ro code   0x800'1196   0x1a4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'133a     0x4  speed_pos_fdbk.o [1]
+  .text              ro code   0x800'133e    0x3a  zero_init3.o [4]
+  .text              ro code   0x800'1378    0xac  mc_tasks.o [1]
+  .text              ro code   0x800'1424   0x174  regular_conversion_manager.o [1]
+  .text              ro code   0x800'1598    0xd2  DblSub.o [3]
+  .text              ro code   0x800'166a    0x26  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'1690    0xac  mc_math.o [1]
+  .text              ro code   0x800'173c    0x3c  ntc_temperature_sensor.o [1]
+  .text              ro code   0x800'1778     0x4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'177c    0x92  r_divider_bus_voltage_sensor.o [1]
+  .text              ro code   0x800'180e    0x2a  state_machine.o [1]
+  .text              ro code   0x800'1838     0x4  state_machine.o [1]
+  .text              ro code   0x800'183c     0x4  pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'1840     0x4  enc_align_ctrl.o [1]
+  .text              ro code   0x800'1844    0x6c  mc_tasks.o [1]
+  .text              ro code   0x800'18b0    0x18  motor_power_measurement.o [1]
+  .text              ro code   0x800'18c8    0x1a  ntc_temperature_sensor.o [1]
+  .text              ro code   0x800'18e2    0x1a  r_divider_bus_voltage_sensor.o [1]
+  .text              ro code   0x800'18fc     0x4  pid_regulator.o [1]
+  .text              ro code   0x800'1900    0x10  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'1910     0x6  ABImemclr.o [4]
+  .text              ro code   0x800'1916    0x16  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'192c    0x5e  ABImemset.o [4]
+  .rodata            const     0x800'198a     0x6  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'1990   0x664  main.o [1]
+  .text              ro code   0x800'1ff4    0x38  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'202c   0x20c  stm32f4xx_hal_gpio.o [1]
+  .text              ro code   0x800'2238   0x214  ADgpio.o [1]
+  .text              ro code   0x800'244c    0xf0  ADspi.o [1]
+  .text              ro code   0x800'253c   0x5ac  stm32f4xx_hal_tim.o [1]
+  .text              ro code   0x800'2ae8    0xf6  stm32f4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'2be0    0xb0  ADtim.o [1]
+  .text              ro code   0x800'2c90    0x84  Handwheel_encoder.o [1]
+  .text              ro code   0x800'2d14   0x198  stm32f4xx_hal_uart.o [1]
+  .text              ro code   0x800'2eac    0x44  motorcontrol.o [1]
+  .text              ro code   0x800'2ef0   0x144  bsp_key.o [1]
+  .text              ro code   0x800'3034    0x50  AD7606.o [1]
+  .text              ro code   0x800'3084   0x110  bsp_CAN.o [1]
+  .text              ro code   0x800'3194   0x508  stm32f4xx_hal_can.o [1]
+  .text              ro code   0x800'369c   0x378  stm32f4xx_hal_rcc.o [1]
+  .text              ro code   0x800'3a14   0x1d0  stm32f4xx_hal_rcc.o [1]
+  .text              ro code   0x800'3be4    0xe2  stm32f4xx_hal_cortex.o [1]
+  .text              ro code   0x800'3cc8   0x2c8  stm32f4xx_hal_adc.o [1]
+  .text              ro code   0x800'3f90   0x194  stm32f4xx_hal_adc_ex.o [1]
+  .text              ro code   0x800'4124   0x35c  stm32f4xx_hal_msp.o [1]
+  .text              ro code   0x800'4480     0xc  mc_api.o [1]
+  .text              ro code   0x800'448c     0xc  mc_api.o [1]
+  .text              ro code   0x800'4498    0x48  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'44e0   0x560  stm32f4xx_hal_spi.o [1]
+  .text              ro code   0x800'4a40   0x230  I64DivMod.o [4]
+  .text              ro code   0x800'4c70   0x1e8  mc_tasks.o [1]
+  .text              ro code   0x800'4e58   0x140  mc_tasks.o [1]
+  .text              ro code   0x800'4f98    0xa0  ui_task.o [1]
+  .text              ro code   0x800'5038     0xc  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'5044    0x14  mc_interface.o [1]
+  .text              ro code   0x800'5058     0x8  mc_interface.o [1]
+  .text              ro code   0x800'5060     0x2  I64DivZer.o [4]
+  .text              ro code   0x800'5062     0xa  state_machine.o [1]
+  .text              ro code   0x800'506c    0xd8  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'5144    0x64  pwm_common.o [1]
+  .text              ro code   0x800'51a8    0x28  pid_regulator.o [1]
+  .text              ro code   0x800'51d0    0xba  encoder_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'528a     0xe  enc_align_ctrl.o [1]
+  .text              ro code   0x800'5298    0x24  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'52bc     0x4  virtual_speed_sensor.o [1]
+  .text              ro code   0x800'52c0   0x1b4  pid_regulator.o [1]
+  .text              ro code   0x800'5474    0x1a  r_divider_bus_voltage_sensor.o [1]
+  .text              ro code   0x800'548e    0x26  ntc_temperature_sensor.o [1]
+  .text              ro code   0x800'54b4    0x10  ramp_ext_mngr.o [1]
+  .text              ro code   0x800'54c4    0x16  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'54da    0x14  mc_interface.o [1]
+  .text              ro code   0x800'54ee     0x6  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'54f4     0xe  mc_interface.o [1]
+  .text              ro code   0x800'5502     0x4  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'5508    0x44  motor_control_protocol.o [1]
+  .text              ro code   0x800'554c    0x18  user_interface.o [1]
+  .text              ro code   0x800'5564    0xe0  state_machine.o [1]
+  .text              ro code   0x800'5644    0x2e  virtual_speed_sensor.o [1]
+  .text              ro code   0x800'5672    0x60  r_divider_bus_voltage_sensor.o [1]
+  .text              ro code   0x800'56d2     0x6  ntc_temperature_sensor.o [1]
+  .text              ro code   0x800'56d8    0x2a  frame_communication_protocol.o [1]
+  .text              ro code   0x800'5702    0x16  frame_communication_protocol.o [1]
+  .text              ro code   0x800'5718    0x1a  motor_control_protocol.o [1]
+  .text              ro code   0x800'5734   0x584  motor_control_protocol.o [1]
+  .text              ro code   0x800'5cb8   0x1e4  user_interface.o [1]
+  .text              ro code   0x800'5e9c    0x78  user_interface.o [1]
+  .text              ro code   0x800'5f14   0x414  user_interface.o [1]
+  .text              ro code   0x800'6328    0x9a  user_interface.o [1]
+  .text              ro code   0x800'63c4    0x30  user_interface.o [1]
+  .text              ro code   0x800'63f4    0x12  user_interface.o [1]
+  .text              ro code   0x800'6408     0xc  mc_api.o [1]
+  .text              ro code   0x800'6414     0xc  mc_api.o [1]
+  .text              ro code   0x800'6420    0x1a  user_interface.o [1]
+  .text              ro code   0x800'643a     0x4  user_interface.o [1]
+  .text              ro code   0x800'643e    0x14  user_interface.o [1]
+  .text              ro code   0x800'6452     0x8  mc_interface.o [1]
+  .text              ro code   0x800'645a    0x12  mc_interface.o [1]
+  .text              ro code   0x800'646c     0x6  mc_interface.o [1]
+  .text              ro code   0x800'6472     0xe  mc_interface.o [1]
+  .text              ro code   0x800'6480    0x1e  mc_interface.o [1]
+  .text              ro code   0x800'649e     0x4  pid_regulator.o [1]
+  .text              ro code   0x800'64a2     0x4  pid_regulator.o [1]
+  .text              ro code   0x800'64a6     0x4  pid_regulator.o [1]
+  .text              ro code   0x800'64aa     0x8  mc_interface.o [1]
+  .text              ro code   0x800'64b2     0x4  user_interface.o [1]
+  .text              ro code   0x800'64b6     0xc  state_machine.o [1]
+  .text              ro code   0x800'64c2     0xc  bus_voltage_sensor.o [1]
+  .text              ro code   0x800'64ce    0x26  ntc_temperature_sensor.o [1]
+  .text              ro code   0x800'64f4    0x14  mc_interface.o [1]
+  .text              ro code   0x800'6508     0x4  mc_interface.o [1]
+  .text              ro code   0x800'650c    0x10  mc_interface.o [1]
+  .text              ro code   0x800'651c     0x4  pid_regulator.o [1]
+  .text              ro code   0x800'6520     0x4  pid_regulator.o [1]
+  .text              ro code   0x800'6524     0x6  pid_regulator.o [1]
+  .text              ro code   0x800'652a     0x6  pid_regulator.o [1]
+  .text              ro code   0x800'6530     0x6  pid_regulator.o [1]
+  .text              ro code   0x800'6536     0x6  motor_power_measurement.o [1]
+  .text              ro code   0x800'653c    0x14  speed_pos_fdbk.o [1]
+  .text              ro code   0x800'6550     0x4  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'6554     0x6  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'655a     0xe  mc_interface.o [1]
+  .text              ro code   0x800'6568     0x6  revup_ctrl.o [1]
+  .text              ro code   0x800'656e     0xe  mc_interface.o [1]
+  .text              ro code   0x800'657c     0xe  mc_interface.o [1]
+  .text              ro code   0x800'658a    0x10  mc_interface.o [1]
+  .text              ro code   0x800'659a    0x10  mc_interface.o [1]
+  .text              ro code   0x800'65aa     0x6  mc_interface.o [1]
+  .text              ro code   0x800'65b0     0x6  mc_interface.o [1]
+  .text              ro code   0x800'65b6     0x6  mc_interface.o [1]
+  .text              ro code   0x800'65bc     0x8  mc_interface.o [1]
+  .text              ro code   0x800'65c4    0x10  mc_interface.o [1]
+  .text              ro code   0x800'65d4     0xc  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'65e0     0x6  speed_pos_fdbk.o [1]
+  .text              ro code   0x800'65e6     0x8  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'65ee    0x16  state_machine.o [1]
+  .text              ro code   0x800'6604   0x31c  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'6920   0x2c0  mc_tasks.o [1]
+  .text              ro code   0x800'6be0   0x13a  encoder_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'6d1c    0x78  pqd_motor_power_measurement.o [1]
+  .text              ro code   0x800'6d94     0x4  enc_align_ctrl.o [1]
+  .text              ro code   0x800'6d98     0x4  enc_align_ctrl.o [1]
+  .text              ro code   0x800'6d9c    0x4c  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'6de8     0xc  mc_tasks.o [1]
+  .text              ro code   0x800'6df4    0x14  mc_tasks.o [1]
+  .text              ro code   0x800'6e08    0x40  pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'6e48    0x6a  encoder_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'6eb2     0x4  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'6eb8    0x50  enc_align_ctrl.o [1]
+  .text              ro code   0x800'6f08    0x9a  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'6fa2    0x36  enc_align_ctrl.o [1]
+  .text              ro code   0x800'6fd8    0x52  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'702a    0x50  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'707a     0x8  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'7082     0x2  mc_tasks.o [1]
+  .text              ro code   0x800'7084    0x28  mc_tasks.o [1]
+  .text              ro code   0x800'70ac    0x10  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'70bc    0x6a  mc_interface.o [1]
+  .text              ro code   0x800'7128    0x10  mc_api.o [1]
+  .text              ro code   0x800'7138     0x6  enc_align_ctrl.o [1]
+  .text              ro code   0x800'7140     0xc  mc_tasks.o [1]
+  .text              ro code   0x800'714c    0x14  mc_tasks.o [1]
+  .text              ro code   0x800'7160    0x58  speed_pos_fdbk.o [1]
+  .text              ro code   0x800'71b8    0x5e  motor_power_measurement.o [1]
+  .text              ro code   0x800'7218    0x88  virtual_speed_sensor.o [1]
+  .text              ro code   0x800'72a0     0xe  virtual_speed_sensor.o [1]
+  .text              ro code   0x800'72b0    0x94  speed_torq_ctrl.o [1]
+  .text              ro code   0x800'7344    0x30  encoder_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'7374    0x98  pid_regulator.o [1]
+  .text              ro code   0x800'740c     0xc  speed_torq_ctrl.o [1]
+  .rodata            const     0x800'7418   0x200  mc_math.o [1]
+  .rodata            const     0x800'7618   0x188  pid_regulator.o [1]
+  .text              ro code   0x800'77a0   0x180  stm32f4xx_mc_it.o [1]
+  .text              ro code   0x800'7920    0x2c  mc_tasks.o [1]
+  .text              ro code   0x800'794c    0xb0  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'79fc    0x2c  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'7a28    0x50  mc_tasks.o [1]
+  .text              ro code   0x800'7a78     0xe  encoder_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'7a88    0xe4  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'7b6c     0xc  ui_task.o [1]
+  .text              ro code   0x800'7b78     0xc  ui_task.o [1]
+  .text              ro code   0x800'7b84    0x64  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'7be8    0x18  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'7c00    0x20  mc_tasks.o [1]
+  .text              ro code   0x800'7c20    0x10  stm32f4xx_hal.o [1]
+  .text              ro code   0x800'7c30    0x28  mc_tasks.o [1]
+  .text              ro code   0x800'7c58    0x32  encoder_speed_pos_fdbk.o [1]
+  .text              ro code   0x800'7c8a    0x5c  frame_communication_protocol.o [1]
+  .text              ro code   0x800'7ce8    0x84  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'7d6c   0x110  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'7e7c    0x42  pwm_common.o [1]
+  .text              ro code   0x800'7ec0   0x104  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .rodata            const     0x800'7fc4    0xc4  mc_position.o [1]
+  .rodata            const     0x800'8088    0x94  mc_parameters.o [1]
+  .text              ro code   0x800'811c    0x5a  r3_2_f4xx_pwm_curr_fdbk.o [1]
+  .text              ro code   0x800'8178    0x2c  system_stm32f4xx.o [1]
+  .text              ro code   0x800'81a4    0x28  data_init.o [4]
+  .text              ro code   0x800'81cc    0x24  stm32f4xx_it.o [1]
+  .text              ro code   0x800'81f0    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'8214    0x20  - Linker created -
+  .rodata            const     0x800'8234    0x20  motorcontrol.o [1]
+  .text              ro code   0x800'8254    0x1e  cmain.o [4]
+  .text              ro code   0x800'8272     0x4  low_level_init.o [2]
+  .text              ro code   0x800'8276     0x4  exit.o [2]
+  .text              ro code   0x800'827c     0xa  cexit.o [4]
+  .text              ro code   0x800'8288    0x14  exit.o [5]
+  .text              ro code   0x800'829c    0x10  startup_stm32f407xx.o [1]
+  .rodata            const     0x800'82ac     0xe  mc_tasks.o [1]
+  .text              ro code   0x800'82ba     0xc  cstartup_M.o [4]
+  .rodata            const     0x800'82c8     0x8  system_stm32f4xx.o [1]
+  .text              ro code   0x800'82d0     0x8  usart_frame_communication_protocol.o [1]
+  .text              ro code   0x800'82d8     0x4  motor_control_protocol.o [1]
+  .text              ro code   0x800'82dc     0x4  motor_control_protocol.o [1]
+  .text              ro code   0x800'82e0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'82e4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'82e8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'82ec     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'82f0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'82f4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'82f8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'82fc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8300     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8304     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8308     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'830c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8310     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8314     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8318     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'831c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8320     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8324     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8328     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'832c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8330     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8334     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8338     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'833c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8340     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8344     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8348     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'834c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8350     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8354     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8358     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'835c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8360     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8364     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8368     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'836c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8370     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8374     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8378     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'837c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8380     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8384     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8388     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'838c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8390     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8394     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8398     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'839c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83a0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83a4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83a8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83ac     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83b0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83b4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83b8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83bc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83c0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83c4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83c8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83cc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83d0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83d4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83d8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83dc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83e0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83e4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83e8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83ec     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83f0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83f4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83f8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'83fc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8400     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8404     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8408     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'840c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'8410     0x4  startup_stm32f407xx.o [1]
+  .rodata            const     0x800'8414     0x0  zero_init3.o [4]
+  .rodata            const     0x800'8414     0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x800'8414   0x219  <for P2-1>
+                             - 0x800'862d  0x84a5
+
+"P2", part 1 of 3:                          0x7d2
+  P2-1                        0x2000'0000   0x7d2  <Init block>
+    .data            inited   0x2000'0000    0x20  luenberge.o [1]
+    .data            inited   0x2000'0020     0xc  Matrx.o [1]
+    .data            inited   0x2000'002c   0x114  mc_config.o [1]
+    .data            inited   0x2000'0140    0x50  mc_config.o [1]
+    .data            inited   0x2000'0190    0x50  mc_config.o [1]
+    .data            inited   0x2000'01e0    0x50  mc_config.o [1]
+    .data            inited   0x2000'0230    0x34  mc_config.o [1]
+    .data            inited   0x2000'0264    0x7c  mc_config.o [1]
+    .data            inited   0x2000'02e0    0x38  mc_config.o [1]
+    .data            inited   0x2000'0318    0x7c  mc_config.o [1]
+    .data            inited   0x2000'0394    0x1c  mc_config.o [1]
+    .data            inited   0x2000'03b0    0x28  mc_config.o [1]
+    .data            inited   0x2000'03d8    0x28  mc_config.o [1]
+    .data            inited   0x2000'0400    0x18  mc_config.o [1]
+    .data            inited   0x2000'0418    0xb4  mc_config.o [1]
+    .data            inited   0x2000'04cc   0x13c  mc_config.o [1]
+    .data            inited   0x2000'0608    0xb8  mc_position.o [1]
+    .data            inited   0x2000'06c0    0xf0  mc_tasks.o [1]
+    .data            inited   0x2000'07b0     0xc  motorcontrol.o [1]
+    .data            inited   0x2000'07bc     0xc  stm32f4xx_hal.o [1]
+    .data            inited   0x2000'07c8     0x4  system_stm32f4xx.o [1]
+    .data            inited   0x2000'07cc     0x6  ui_task.o [1]
+                            - 0x2000'07d2   0x7d2
+
+"P2", part 2 of 3:                          0x3e0
+  .bss               zero     0x2000'07d4    0xb4  ui_task.o [1]
+  .bss               zero     0x2000'0888    0x91  main.o [1]
+  .bss               zero     0x2000'0919     0x1  stm32f4xx_mc_it.o [1]
+  .bss               zero     0x2000'091c    0x88  bsp_CAN.o [1]
+  .bss               zero     0x2000'09a4    0x58  ADspi.o [1]
+  .bss               zero     0x2000'09fc    0x48  main.o [1]
+  .bss               zero     0x2000'0a44    0x48  main.o [1]
+  .bss               zero     0x2000'0a8c    0x40  ADtim.o [1]
+  .bss               zero     0x2000'0acc    0x40  Handwheel_encoder.o [1]
+  .bss               zero     0x2000'0b0c    0x40  main.o [1]
+  .bss               zero     0x2000'0b4c    0x34  regular_conversion_manager.o [1]
+  .bss               zero     0x2000'0b80    0x18  mc_config.o [1]
+  .bss               zero     0x2000'0b98    0x14  mc_config.o [1]
+  .bss               zero     0x2000'0bac     0x8  motor_control_protocol.o [1]
+                            - 0x2000'0bb4   0x3e0
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0bb8   0x400  <Block>
+    CSTACK           uninit   0x2000'0bb8   0x400  <Block tail>
+                            - 0x2000'0fb8   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'862d   0x80f'ffff  0xf'79d3
+  0x2000'07d2  0x2000'07d3       0x2
+  0x2000'0bb4  0x2000'0bb7       0x4
+  0x2000'0fb8  0x2001'ffff  0x1'f048
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x3e0:
+          0x2000'07d4  0x3e0
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x219 (26% of destination):
+           0x800'8414  0x219
+    1 destination range, total size 0x7d2:
+          0x2000'0000  0x7d2
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                ro code  ro data  rw data
+    ------                                -------  -------  -------
+command line/config:
+    ---------------------------------------------------------------
+    Total:
+
+D:\yanjiusheng\STM2\Main\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj: [1]
+    AD7606.o                                   80
+    ADgpio.o                                  532
+    ADspi.o                                   240                88
+    ADtim.o                                   176                64
+    Handwheel_encoder.o                       132                64
+    Matrx.o                                              3       12
+    bsp_CAN.o                                 272               136
+    bsp_key.o                                 324
+    bus_voltage_sensor.o                       12
+    circle_limitation.o                        86
+    enc_align_ctrl.o                          166
+    encoder_speed_pos_fdbk.o                  718
+    frame_communication_protocol.o            156
+    luenberge.o                                          8       32
+    main.o                                  1 636               353
+    mc_api.o                                   64
+    mc_config.o                                        403    1 544
+    mc_interface.o                            408
+    mc_math.o                                 410      512
+    mc_parameters.o                                    148
+    mc_position.o                           2 176      245      184
+    mc_tasks.o                              2 318       78      240
+    motor_control_protocol.o                1 514                 8
+    motor_power_measurement.o                 124
+    motorcontrol.o                             68       36       12
+    ntc_temperature_sensor.o                  168
+    pid_regulator.o                           798      392
+    pqd_motor_power_measurement.o             120
+    pwm_common.o                              166
+    pwm_curr_fdbk.o                           496
+    r3_2_f4xx_pwm_curr_fdbk.o               2 330
+    r_divider_bus_voltage_sensor.o            294
+    ramp_ext_mngr.o                            16
+    regular_conversion_manager.o              372                52
+    revup_ctrl.o                                6
+    speed_pos_fdbk.o                          130
+    speed_torq_ctrl.o                         384
+    startup_stm32f407xx.o                     716
+    state_machine.o                           314
+    stm32f4xx_hal.o                           156        3       12
+    stm32f4xx_hal_adc.o                       712
+    stm32f4xx_hal_adc_ex.o                    404
+    stm32f4xx_hal_can.o                     1 288
+    stm32f4xx_hal_cortex.o                    226
+    stm32f4xx_hal_gpio.o                      524
+    stm32f4xx_hal_msp.o                       860
+    stm32f4xx_hal_rcc.o                     1 352
+    stm32f4xx_hal_spi.o                     1 376
+    stm32f4xx_hal_tim.o                     1 452
+    stm32f4xx_hal_tim_ex.o                    246
+    stm32f4xx_hal_uart.o                      408
+    stm32f4xx_it.o                             36
+    stm32f4xx_mc_it.o                         384                 1
+    system_stm32f4xx.o                         44        9        4
+    ui_task.o                                 184        2      186
+    usart_frame_communication_protocol.o      534        6
+    user_interface.o                        1 946
+    virtual_speed_sensor.o                    200
+    ---------------------------------------------------------------
+    Total:                                 30 254    1 845    2 992
+
+dl7M_tlf.a: [2]
+    exit.o                                      4
+    low_level_init.o                            4
+    ---------------------------------------------------------------
+    Total:                                      8
+
+m7M_tls.a: [3]
+    DblAdd.o                                  378
+    DblMul.o                                  418
+    DblSub.o                                  210
+    DblToFlt.o                                104
+    FltToDbl.o                                 72
+    fpinit_M.o                                 34
+    ---------------------------------------------------------------
+    Total:                                  1 216
+
+rt7M_tl.a: [4]
+    ABImemclr.o                                 6
+    ABImemset.o                                94
+    I64DivMod.o                               560
+    I64DivZer.o                                 2
+    cexit.o                                    10
+    cmain.o                                    30
+    cstartup_M.o                               12
+    data_init.o                                40
+    lz77_init_single.o                        122
+    zero_init3.o                               58
+    ---------------------------------------------------------------
+    Total:                                    934
+
+shb_l.a: [5]
+    exit.o                                     20
+    ---------------------------------------------------------------
+    Total:                                     20
+
+    Gaps                                       36        4        2
+    Linker created                                      32    1 024
+-------------------------------------------------------------------
+    Grand Total:                           32 468    1 881    4 018
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'8214          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'8234          --   Gb  - Linker created -
+?main                    0x800'8255         Code  Gb  cmain.o [4]
+AD7606Reset              0x800'3035   0x2e  Code  Gb  AD7606.o [1]
+AD7606_ReadData          0x800'306b    0xe  Code  Gb  AD7606.o [1]
+AD7606_start             0x800'3063    0x8  Code  Gb  AD7606.o [1]
+ADC_IRQHandler           0x800'77a1   0x22  Code  Gb  stm32f4xx_mc_it.o [1]
+ADC_Init                 0x800'3e85   0xf8  Code  Lc  stm32f4xx_hal_adc.o [1]
+AD_Data_Ready_Flag      0x2000'0918    0x1  Data  Gb  main.o [1]
+AHBPrescTable            0x800'8194   0x10  Data  Gb  system_stm32f4xx.o [1]
+APBPrescTable            0x800'82c8    0x8  Data  Gb  system_stm32f4xx.o [1]
+Abs_Value                0x800'0189    0x8  Code  Gb  mc_position.o [1]
+CAN_Send_Sync_Broadcast
+                         0x800'1991   0x3e  Code  Gb  main.o [1]
+CSTACK$$Base            0x2000'0bb8          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0fb8          --   Gb  - Linker created -
+CalcMembership           0x800'02a5  0x230  Code  Gb  mc_position.o [1]
+CircleLimitationM1      0x2000'0418   0xb4  Data  Gb  mc_config.o [1]
+Circle_Limitation        0x800'10fd   0x56  Code  Wk  circle_limitation.o [1]
+ControlMode             0x2000'073d    0x1  Data  Gb  mc_tasks.o [1]
+Currentspeed            0x2000'0746    0x2  Data  Gb  mc_tasks.o [1]
+DB_data                 0x2000'0908   0x10  Data  Gb  main.o [1]
+EAC_Exec                 0x800'6fa3   0x36  Code  Wk  enc_align_ctrl.o [1]
+EAC_GetRestartState      0x800'6d95    0x4  Code  Wk  enc_align_ctrl.o [1]
+EAC_Init                 0x800'528b    0xe  Code  Wk  enc_align_ctrl.o [1]
+EAC_IsAligned            0x800'6d99    0x4  Code  Wk  enc_align_ctrl.o [1]
+EAC_SetRestartState      0x800'1841    0x4  Code  Wk  enc_align_ctrl.o [1]
+EAC_StartAlignment       0x800'6eb9   0x50  Code  Wk  enc_align_ctrl.o [1]
+ENCODER_M1              0x2000'0318   0x7c  Data  Gb  mc_config.o [1]
+ENC_CalcAngle            0x800'7c59   0x32  Code  Wk  encoder_speed_pos_fdbk.o [1]
+ENC_CalcAvrgMecSpeedUnit
+                         0x800'6be1  0x13a  Code  Wk  encoder_speed_pos_fdbk.o [1]
+ENC_Clear                0x800'6e49   0x6a  Code  Wk  encoder_speed_pos_fdbk.o [1]
+ENC_IRQHandler           0x800'7a79    0xe  Code  Wk  encoder_speed_pos_fdbk.o [1]
+ENC_Init                 0x800'51d1   0xba  Code  Wk  encoder_speed_pos_fdbk.o [1]
+ENC_SetMecAngle          0x800'7345   0x30  Code  Wk  encoder_speed_pos_fdbk.o [1]
+EXTI0_IRQHandler         0x800'81d3    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI1_IRQHandler         0x800'81d9    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI2_IRQHandler         0x800'81df    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI3_IRQHandler         0x800'81e5    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI4_IRQHandler         0x800'81eb    0x6  Code  Gb  stm32f4xx_it.o [1]
+EXTI9_5_IRQHandler       0x800'81cd    0x6  Code  Gb  stm32f4xx_it.o [1]
+EncAlignCtrlM1          0x2000'0394   0x1c  Data  Gb  mc_config.o [1]
+Error_Handler            0x800'1eeb    0x2  Code  Gb  main.o [1]
+FCP_CalcCRC              0x800'7c8b   0x5c  Code  Wk  frame_communication_protocol.o [1]
+FCP_Init                 0x800'56d9   0x2a  Code  Wk  frame_communication_protocol.o [1]
+FCP_SetClient            0x800'5703   0x16  Code  Wk  frame_communication_protocol.o [1]
+FFPosition              0x2000'0760    0x4  Data  Gb  mc_tasks.o [1]
+FF_M1                   0x2000'065c   0x14  Data  Gb  mc_position.o [1]
+FOCVars                 0x2000'06c0   0x28  Data  Gb  mc_tasks.o [1]
+FOC_CurrControllerM1     0x800'0a09   0x9e  Code  Lc  mc_tasks.o [1]
+FUZZYPIDSpeedHandle_M1  0x2000'0140   0x50  Data  Gb  mc_config.o [1]
+FUZZYPID_HandleInit      0x800'51a9   0x28  Code  Wk  pid_regulator.o [1]
+FUZZYPI_Controller       0x800'7375   0x98  Code  Wk  pid_regulator.o [1]
+FeedforwardController    0x800'0239   0x54  Code  Gb  mc_position.o [1]
+FuzzyComputation         0x800'04e5  0x4bc  Code  Gb  mc_position.o [1]
+HAL_ADCEx_InjectedConfigChannel
+                         0x800'3f91  0x188  Code  Gb  stm32f4xx_hal_adc_ex.o [1]
+HAL_ADC_ConfigChannel    0x800'3d1f  0x166  Code  Gb  stm32f4xx_hal_adc.o [1]
+HAL_ADC_Init             0x800'3cc9   0x56  Code  Gb  stm32f4xx_hal_adc.o [1]
+HAL_ADC_MspInit          0x800'415f   0xec  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_CAN_ConfigFilter     0x800'32d1   0xd8  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_Init             0x800'3195  0x13c  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_MspInit          0x800'30f1   0x90  Code  Gb  bsp_CAN.o [1]
+HAL_CAN_Receive_IT       0x800'35b5   0xd2  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_CAN_Transmit         0x800'33a9  0x20c  Code  Gb  stm32f4xx_hal_can.o [1]
+HAL_GPIO_EXTI_Callback   0x800'1eed   0xac  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                         0x800'21f7   0x10  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x800'202d  0x1b2  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin         0x800'21e1    0xe  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'21ef    0x8  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick              0x800'5039    0xc  Code  Wk  stm32f4xx_hal.o [1]
+HAL_IncTick              0x800'7c21   0x10  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                 0x800'1ff5   0x34  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick             0x800'4499   0x48  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit              0x800'4125   0x3a  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ       0x800'3c51   0x16  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'3bff   0x52  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'3be5   0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SystemReset     0x800'3c67   0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig      0x800'3a15  0x11e  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_EnableCSS        0x800'3b33    0x8  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq      0x800'3b3b    0x6  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x800'3b41   0x14  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq     0x800'3b55   0x14  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'369d  0x378  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SPI_Init             0x800'44e1   0x7e  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_MspInit          0x800'2495   0x92  Code  Gb  ADspi.o [1]
+HAL_SPI_Receive          0x800'455f  0x14a  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive
+                         0x800'46a9  0x298  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SYSTICK_Config       0x800'3c81   0x22  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler   0x800'3cc1    0x4  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_TIMEx_ConfigBreakDeadTime
+                         0x800'2b7d   0x62  Code  Gb  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'2ae9   0x78  Code  Gb  stm32f4xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init        0x800'253d   0x34  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit     0x800'4319   0x26  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_TIM_Encoder_Init     0x800'25f5   0x96  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_Encoder_MspInit
+                         0x800'424b   0xce  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_TIM_MspPostInit      0x800'433f   0xaa  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_TIM_PWM_ConfigChannel
+                         0x800'268d   0xea  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_PWM_Init         0x800'2571   0x34  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_PWM_MspInit      0x800'2c57   0x26  Code  Gb  ADtim.o [1]
+HAL_TIM_PWM_Start        0x800'25a5   0x46  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_TIM_SlaveConfigSynchro
+                         0x800'2785   0x56  Code  Gb  stm32f4xx_hal_tim.o [1]
+HAL_UART_Init            0x800'2d15   0x60  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_MspInit         0x800'43e9   0x5e  Code  Gb  stm32f4xx_hal_msp.o [1]
+HardFault_Handler        0x800'7881   0x68  Code  Gb  stm32f4xx_mc_it.o [1]
+KEY_GPIO_Init            0x800'2ef1  0x134  Code  Gb  bsp_key.o [1]
+MCI_Clear_Iqdref         0x800'65c5   0x10  Code  Wk  mc_interface.o [1]
+MCI_EncoderAlign         0x800'65bd    0x8  Code  Wk  mc_interface.o [1]
+MCI_ExecBufferedCommands
+                         0x800'70bd   0x6a  Code  Wk  mc_interface.o [1]
+MCI_ExecSpeedRamp        0x800'54f5    0xe  Code  Wk  mc_interface.o [1]
+MCI_ExecTorqueRamp       0x800'645b   0x12  Code  Wk  mc_interface.o [1]
+MCI_FaultAcknowledged    0x800'65b7    0x6  Code  Wk  mc_interface.o [1]
+MCI_GetAvrgMecSpeedUnit
+                         0x800'64f5   0x14  Code  Wk  mc_interface.o [1]
+MCI_GetControlMode       0x800'6509    0x4  Code  Wk  mc_interface.o [1]
+MCI_GetIab               0x800'656f    0xe  Code  Wk  mc_interface.o [1]
+MCI_GetIalphabeta        0x800'657d    0xe  Code  Wk  mc_interface.o [1]
+MCI_GetIqd               0x800'655b    0xe  Code  Wk  mc_interface.o [1]
+MCI_GetIqdref            0x800'6473    0xe  Code  Wk  mc_interface.o [1]
+MCI_GetLastRampFinalSpeed
+                         0x800'650d   0x10  Code  Wk  mc_interface.o [1]
+MCI_GetMecSpeedRefUnit   0x800'646d    0x6  Code  Wk  mc_interface.o [1]
+MCI_GetSTMState          0x800'65ab    0x6  Code  Wk  mc_interface.o [1]
+MCI_GetTeref             0x800'6453    0x8  Code  Wk  mc_interface.o [1]
+MCI_GetValphabeta        0x800'659b   0x10  Code  Wk  mc_interface.o [1]
+MCI_GetVqd               0x800'658b   0x10  Code  Wk  mc_interface.o [1]
+MCI_Init                 0x800'54db   0x14  Code  Wk  mc_interface.o [1]
+MCI_SetCurrentReferences
+                         0x800'6481   0x1e  Code  Wk  mc_interface.o [1]
+MCI_SetIdref             0x800'64ab    0x8  Code  Wk  mc_interface.o [1]
+MCI_StartMotor           0x800'5045   0x14  Code  Wk  mc_interface.o [1]
+MCI_StopMotor            0x800'5059    0x8  Code  Wk  mc_interface.o [1]
+MCI_StopRamp             0x800'65b1    0x6  Code  Wk  mc_interface.o [1]
+MCM_Clarke               0x800'0fcd   0x48  Code  Wk  mc_math.o [1]
+MCM_Park                 0x800'1015   0x68  Code  Wk  mc_math.o [1]
+MCM_Rev_Park             0x800'1159   0x3e  Code  Wk  mc_math.o [1]
+MCP_Init                 0x800'5509   0x44  Code  Wk  motor_control_protocol.o [1]
+MCP_UI_Params           0x2000'07d4   0xb0  Data  Gb  ui_task.o [1]
+MCT                     0x2000'06e8   0x54  Data  Gb  mc_tasks.o [1]
+MC_GetLastRampFinalSpeedMotor1
+                         0x800'6409    0xc  Code  Wk  mc_api.o [1]
+MC_GetMecSpeedAverageMotor1
+                         0x800'6415    0xc  Code  Wk  mc_api.o [1]
+MC_ProgramSpeedRampMotor1
+                         0x800'7129   0x10  Code  Wk  mc_api.o [1]
+MC_RunMotorControlTasks
+                         0x800'7c31   0x28  Code  Wk  mc_tasks.o [1]
+MC_Scheduler             0x800'7a29   0x50  Code  Wk  mc_tasks.o [1]
+MC_StartMotor1           0x800'4481    0xc  Code  Wk  mc_api.o [1]
+MC_StopMotor1            0x800'448d    0xc  Code  Wk  mc_api.o [1]
+MCboot                   0x800'4c71  0x1e8  Code  Wk  mc_tasks.o [1]
+MPInfo                  0x2000'0bac    0x8  Data  Gb  motor_control_protocol.o [1]
+MPM_CalcElMotorPower     0x800'71b9   0x5e  Code  Wk  motor_power_measurement.o [1]
+MPM_Clear                0x800'18b1   0x18  Code  Wk  motor_power_measurement.o [1]
+MPM_GetAvrgElMotorPowerW
+                         0x800'6537    0x6  Code  Wk  motor_power_measurement.o [1]
+MX_ADC1_Init             0x800'1c79   0xd2  Code  Lc  main.o [1]
+MX_ADC2_Init             0x800'1d4b   0xb8  Code  Lc  main.o [1]
+MX_ADGPIO_Init           0x800'2239  0x1f0  Code  Gb  ADgpio.o [1]
+MX_CAN_Init              0x800'3085   0x6c  Code  Gb  bsp_CAN.o [1]
+MX_MotorControl_Init     0x800'2ead   0x44  Code  Wk  motorcontrol.o [1]
+MX_NVIC_Init             0x800'1c0f   0x6a  Code  Lc  main.o [1]
+MX_SPI1_Init             0x800'244d   0x48  Code  Gb  ADspi.o [1]
+MX_TIM1_Init             0x800'2c91   0x74  Code  Gb  Handwheel_encoder.o [1]
+MX_TIM3_Init             0x800'2be1   0x76  Code  Gb  ADtim.o [1]
+MX_TIM8_Init             0x800'1e05   0xe6  Code  Lc  main.o [1]
+Mci                     0x2000'078c   0x1c  Data  Gb  mc_tasks.o [1]
+NTC_CalcAvTemp           0x800'173d   0x3c  Code  Wk  ntc_temperature_sensor.o [1]
+NTC_GetAvTemp_C          0x800'64cf   0x26  Code  Wk  ntc_temperature_sensor.o [1]
+NTC_Init                 0x800'548f   0x26  Code  Wk  ntc_temperature_sensor.o [1]
+PIDAngleHandle_M1       0x2000'0670   0x50  Data  Gb  mc_position.o [1]
+PIDIdHandle_M1          0x2000'01e0   0x50  Data  Gb  mc_config.o [1]
+PIDIqHandle_M1          0x2000'0190   0x50  Data  Gb  mc_config.o [1]
+PID_GetKD                0x800'6531    0x6  Code  Wk  pid_regulator.o [1]
+PID_GetKI                0x800'652b    0x6  Code  Wk  pid_regulator.o [1]
+PID_GetKIDivisor         0x800'6521    0x4  Code  Wk  pid_regulator.o [1]
+PID_GetKP                0x800'6525    0x6  Code  Wk  pid_regulator.o [1]
+PID_GetKPDivisor         0x800'651d    0x4  Code  Wk  pid_regulator.o [1]
+PID_HandleInit           0x800'5461   0x14  Code  Wk  pid_regulator.o [1]
+PID_SetIntegralTerm      0x800'18fd    0x4  Code  Wk  pid_regulator.o [1]
+PID_SetKD                0x800'64a7    0x4  Code  Wk  pid_regulator.o [1]
+PID_SetKE                0x800'52c1    0x6  Code  Gb  pid_regulator.o [1]
+PID_SetKEC               0x800'52c7    0x6  Code  Gb  pid_regulator.o [1]
+PID_SetKI                0x800'64a3    0x4  Code  Wk  pid_regulator.o [1]
+PID_SetKP                0x800'649f    0x4  Code  Wk  pid_regulator.o [1]
+PID_SetKUI               0x800'52d1    0x6  Code  Gb  pid_regulator.o [1]
+PID_SetKUP               0x800'52cd    0x4  Code  Gb  pid_regulator.o [1]
+PI_Controller            0x800'107d   0x80  Code  Wk  pid_regulator.o [1]
+PQD_CalcElMotorPower     0x800'6d1d   0x78  Code  Wk  pqd_motor_power_measurement.o [1]
+PQD_MotorPowMeasM1      0x2000'002c  0x114  Data  Gb  mc_config.o [1]
+PWMC_CheckOverCurrent    0x800'1779    0x4  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_CurrentReadingCalibr
+                         0x800'6e09   0x40  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_GetPhaseCurrents    0x800'0f8b    0x4  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_SetPhaseVoltage     0x800'1197  0x1a4  Code  Wk  pwm_curr_fdbk.o [1]
+PWMC_SwitchOffPWM        0x800'183d    0x4  Code  Wk  pwm_curr_fdbk.o [1]
+PWM_Handle_M1           0x2000'0264   0x7c  Data  Gb  mc_config.o [1]
+PositionMode            0x2000'073e    0x1  Data  Gb  mc_tasks.o [1]
+Position_CalcSpeedReferrence
+                         0x800'01f7   0x40  Code  Gb  mc_position.o [1]
+Position_GetAngle        0x800'028d    0x8  Code  Gb  mc_position.o [1]
+Position_GetErrorAngle   0x800'0191   0x18  Code  Gb  mc_position.o [1]
+Position_GetErrorVoltage
+                         0x800'01a9   0x4e  Code  Gb  mc_position.o [1]
+Position_GetKP           0x800'09d5    0x6  Code  Gb  mc_position.o [1]
+Position_GetMecAngle     0x800'0aa7   0x18  Code  Gb  mc_tasks.o [1]
+Position_GetTargrtangle
+                         0x800'09db   0x14  Code  Gb  mc_position.o [1]
+Position_M1             0x2000'0608   0x54  Data  Gb  mc_position.o [1]
+Position_SetAngle        0x800'0295    0xe  Code  Gb  mc_position.o [1]
+Position_SetKE           0x800'09b5    0x6  Code  Gb  mc_position.o [1]
+Position_SetKEC          0x800'09bb    0x6  Code  Gb  mc_position.o [1]
+Position_SetKI           0x800'09b1    0x4  Code  Gb  mc_position.o [1]
+Position_SetKP           0x800'09ad    0x4  Code  Gb  mc_position.o [1]
+Position_SetKUI          0x800'09c5    0x4  Code  Gb  mc_position.o [1]
+Position_SetKUP          0x800'09c1    0x4  Code  Gb  mc_position.o [1]
+Position_SetKaff         0x800'09cf    0x6  Code  Gb  mc_position.o [1]
+Position_SetKvff         0x800'09c9    0x6  Code  Gb  mc_position.o [1]
+R3_2_BRK_IRQHandler      0x800'79fd   0x2c  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_CurrentReadingCalibration
+                         0x800'7d6d  0x110  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_GetPhaseCurrents    0x800'7ec1  0x104  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_Init                0x800'506d   0xd8  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_IsOverCurrentOccurred
+                         0x800'1917   0x16  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_ParamsM1            0x800'8088   0x94  Data  Gb  mc_parameters.o [1]
+R3_2_RLDetectionModeDisable
+                         0x800'66e9   0xde  Code  Gb  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_RLDetectionModeEnable
+                         0x800'6633   0xb6  Code  Gb  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_RLDetectionModeSetDuty
+                         0x800'67c7   0x2e  Code  Gb  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_RLGetPhaseCurrents
+                         0x800'67f5   0x38  Code  Lc  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_RLSwitchOnPWM       0x800'6889   0x7e  Code  Lc  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_RLTurnOnLowSides    0x800'6841   0x46  Code  Lc  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_SetADCSampPointSectX
+                         0x800'811d   0x5a  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_SwitchOffPWM        0x800'702b   0x50  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_SwitchOnPWM         0x800'6f09   0x9a  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_TIMx_UP_IRQHandler
+                         0x800'794d   0xb0  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_TurnOnLowSides      0x800'6d9d   0x4c  Code  Wk  r3_2_f4xx_pwm_curr_fdbk.o [1]
+R3_2_WriteTIMRegisters   0x800'6605   0x2e  Code  Lc  r3_2_f4xx_pwm_curr_fdbk.o [1]
+RCM_CB_array            0x2000'0b4c   0x20  Data  Gb  regular_conversion_manager.o [1]
+RCM_ExecRegularConv      0x800'14ed   0x5a  Code  Gb  regular_conversion_manager.o [1]
+RCM_ExecUserConv         0x800'1547   0x4a  Code  Gb  regular_conversion_manager.o [1]
+RCM_RegisterRegConv      0x800'1425   0xc8  Code  Gb  regular_conversion_manager.o [1]
+RCM_UserConvHandle      0x2000'0b6c    0x1  Data  Gb  regular_conversion_manager.o [1]
+RCM_UserConvState       0x2000'0b6d    0x1  Data  Gb  regular_conversion_manager.o [1]
+RCM_UserConvValue       0x2000'0b6e    0x2  Data  Gb  regular_conversion_manager.o [1]
+RCM_handle_array        0x2000'0b70   0x10  Data  Gb  regular_conversion_manager.o [1]
+REMNG_Init               0x800'54b5   0x10  Code  Gb  ramp_ext_mngr.o [1]
+RLS                     0x2000'0020    0xc  Data  Gb  Matrx.o [1]
+RUC_GetNumberOfPhases    0x800'6569    0x6  Code  Wk  revup_ctrl.o [1]
+RVBS_CalcAvVbus          0x800'177d   0x92  Code  Wk  r_divider_bus_voltage_sensor.o [1]
+RVBS_Init                0x800'5475   0x1a  Code  Wk  r_divider_bus_voltage_sensor.o [1]
+RampExtMngrHFParamsM1   0x2000'0400   0x18  Data  Gb  mc_config.o [1]
+RealBusVoltageSensorFilterBufferM1
+                        0x2000'0b98   0x14  Data  Gb  mc_config.o [1]
+RealBusVoltageSensorParamsM1
+                        0x2000'03d8   0x28  Data  Gb  mc_config.o [1]
+Region$$Table$$Base      0x800'8214          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'8234          --   Gb  - Linker created -
+RxMessage               0x2000'0980   0x24  Data  Lc  bsp_CAN.o [1]
+SPD_GetAvrgMecSpeedUnit
+                         0x800'65e1    0x6  Code  Wk  speed_pos_fdbk.o [1]
+SPD_GetElAngle           0x800'0f85    0x6  Code  Wk  speed_pos_fdbk.o [1]
+SPD_GetInstElSpeedDpp    0x800'1153    0x6  Code  Wk  speed_pos_fdbk.o [1]
+SPD_GetMecAngle          0x800'133b    0x4  Code  Wk  speed_pos_fdbk.o [1]
+SPD_GetS16Speed          0x800'653d   0x14  Code  Wk  speed_pos_fdbk.o [1]
+SPD_IsMecSpeedReliable   0x800'7161   0x58  Code  Wk  speed_pos_fdbk.o [1]
+SPI_EndRxTransaction     0x800'494d   0xf4  Code  Lc  stm32f4xx_hal_spi.o [1]
+STC_CalcTorqueReference
+                         0x800'6fd9   0x52  Code  Wk  speed_torq_ctrl.o [1]
+STC_Clear                0x800'1901   0x10  Code  Wk  speed_torq_ctrl.o [1]
+STC_ExecRamp             0x800'72b1   0x94  Code  Wk  speed_torq_ctrl.o [1]
+STC_ForceSpeedReferenceToCurrentSpeed
+                         0x800'70ad   0x10  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetDefaultIqdref     0x800'54c5   0x16  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetMaxAppPositiveMecSpeedUnit
+                         0x800'6551    0x4  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetMecSpeedRefUnit   0x800'65d5    0xc  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetMecSpeedRefUnitDefault
+                         0x800'54ef    0x6  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetMinAppNegativeMecSpeedUnit
+                         0x800'6555    0x6  Code  Wk  speed_torq_ctrl.o [1]
+STC_GetSpeedSensor       0x800'0f81    0x4  Code  Wk  speed_torq_ctrl.o [1]
+STC_Init                 0x800'5299   0x24  Code  Wk  speed_torq_ctrl.o [1]
+STC_SetControlMode       0x800'707b    0x8  Code  Wk  speed_torq_ctrl.o [1]
+STC_SetSpeedSensor       0x800'6eb3    0x4  Code  Wk  speed_torq_ctrl.o [1]
+STC_StopRamp             0x800'65e7    0x8  Code  Wk  speed_torq_ctrl.o [1]
+STM                     0x2000'07a8    0x8  Data  Gb  mc_tasks.o [1]
+STM_FaultAcknowledged    0x800'65ef   0x16  Code  Wk  state_machine.o [1]
+STM_FaultProcessing      0x800'180f   0x2a  Code  Wk  state_machine.o [1]
+STM_GetFaultState        0x800'64b7    0xc  Code  Wk  state_machine.o [1]
+STM_GetState             0x800'1839    0x4  Code  Wk  state_machine.o [1]
+STM_Init                 0x800'5063    0xa  Code  Wk  state_machine.o [1]
+STM_NextState            0x800'5565   0xe0  Code  Wk  state_machine.o [1]
+Set_Encoder_notAligned   0x800'7139    0x6  Code  Wk  enc_align_ctrl.o [1]
+SpeedFuzzyPIComputation
+                         0x800'52d9  0x180  Code  Gb  pid_regulator.o [1]
+SpeednTorqCtrlM1        0x2000'0230   0x34  Data  Gb  mc_config.o [1]
+SysTick_Handler          0x800'78e9   0x22  Code  Gb  stm32f4xx_mc_it.o [1]
+SysTick_Handler::SystickDividerCounter
+                        0x2000'0919    0x1  Data  Lc  stm32f4xx_mc_it.o [1]
+SystemClock_Config       0x800'1b6d   0xa2  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'07c8    0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit               0x800'8179   0x16  Code  Gb  system_stm32f4xx.o [1]
+TIM2_IRQHandler          0x800'77f7   0x1c  Code  Gb  stm32f4xx_mc_it.o [1]
+TIM8_BRK_TIM12_IRQHandler
+                         0x800'77d3   0x24  Code  Gb  stm32f4xx_mc_it.o [1]
+TIM8_UP_TIM13_IRQHandler
+                         0x800'77c3   0x10  Code  Gb  stm32f4xx_mc_it.o [1]
+TIM_Base_SetConfig       0x800'27db   0xa4  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_OC1_SetConfig        0x800'287f   0x5c  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_OC2_SetConfig        0x800'28db   0x64  Code  Gb  stm32f4xx_hal_tim.o [1]
+TIM_OC3_SetConfig        0x800'293f   0x62  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_OC4_SetConfig        0x800'29a1   0x48  Code  Lc  stm32f4xx_hal_tim.o [1]
+TIM_SlaveTimer_SetConfig
+                         0x800'29e9   0xd4  Code  Lc  stm32f4xx_hal_tim.o [1]
+TSK_HardwareFaultTask    0x800'7c01   0x20  Code  Wk  mc_tasks.o [1]
+TSK_HighFrequencyTask    0x800'7921   0x2c  Code  Wk  mc_tasks.o [1]
+Targetspeed             0x2000'0748    0x2  Data  Gb  mc_tasks.o [1]
+TempSensorParamsM1      0x2000'03b0   0x28  Data  Gb  mc_config.o [1]
+TorqueObserver          0x2000'0768    0x4  Data  Gb  mc_tasks.o [1]
+Torque_observation      0x2000'0000   0x20  Data  Gb  luenberge.o [1]
+TxMessage               0x2000'0960   0x20  Data  Lc  bsp_CAN.o [1]
+UART_SetConfig           0x800'2d75  0x124  Code  Lc  stm32f4xx_hal_uart.o [1]
+UFCP_AbortReceive        0x800'82d1    0x8  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_Init                0x800'5503    0x4  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_OVR_IRQ_Handler     0x800'7be9   0x18  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_RX_IRQ_Handler      0x800'7a89   0xe4  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_Receive             0x800'166b   0x26  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_Send                0x800'7ce9   0x84  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_TX_IRQ_Handler      0x800'7b85   0x64  Code  Wk  usart_frame_communication_protocol.o [1]
+UFCP_Usart_Timeout_none
+                         0x800'198a    0x2  Data  Lc  usart_frame_communication_protocol.o [1]
+UFCP_Usart_Timeout_start
+                         0x800'198c    0x2  Data  Lc  usart_frame_communication_protocol.o [1]
+UFCP_Usart_Timeout_stop
+                         0x800'198e    0x2  Data  Lc  usart_frame_communication_protocol.o [1]
+UI_ExecCmd               0x800'6329   0x9a  Code  Wk  user_interface.o [1]
+UI_ExecSpeedRamp         0x800'63c5   0x30  Code  Wk  user_interface.o [1]
+UI_ExecTorqueRamp        0x800'63f5   0x12  Code  Wk  user_interface.o [1]
+UI_GetMPInfo             0x800'643b    0x4  Code  Wk  user_interface.o [1]
+UI_GetReg                0x800'5f55  0x3d4  Code  Wk  user_interface.o [1]
+UI_Init                  0x800'554d   0x18  Code  Wk  user_interface.o [1]
+UI_Params               0x2000'0b80   0x18  Data  Gb  mc_config.o [1]
+UI_Scheduler             0x800'500d   0x2c  Code  Wk  ui_task.o [1]
+UI_SerialCommunicationTimeOutStart
+                         0x800'7b6d    0xc  Code  Wk  ui_task.o [1]
+UI_SerialCommunicationTimeOutStop
+                         0x800'7b79    0xc  Code  Wk  ui_task.o [1]
+UI_SetControlModel       0x800'5f15   0x40  Code  Gb  user_interface.o [1]
+UI_SetCurrentReferences
+                         0x800'6421   0x1a  Code  Wk  user_interface.o [1]
+UI_SetReg                0x800'5cb9  0x1e4  Code  Wk  user_interface.o [1]
+UI_SetRegFloat           0x800'5e9d   0x78  Code  Wk  user_interface.o [1]
+UI_TaskInit              0x800'4f99   0x74  Code  Gb  ui_task.o [1]
+USART1_IRQHandler        0x800'7813   0x6c  Code  Gb  stm32f4xx_mc_it.o [1]
+VBS_GetAvBusVoltage_V    0x800'64c3    0xc  Code  Wk  bus_voltage_sensor.o [1]
+VSS_Init                 0x800'52bd    0x4  Code  Wk  virtual_speed_sensor.o [1]
+VSS_SetMecAcceleration   0x800'7219   0x88  Code  Wk  virtual_speed_sensor.o [1]
+VSS_SetMecAngle          0x800'72a1    0xe  Code  Wk  virtual_speed_sensor.o [1]
+VirtualSpeedSensorM1    0x2000'02e0   0x38  Data  Gb  mc_config.o [1]
+__aeabi_d2f              0x800'0f19         Code  Gb  DblToFlt.o [3]
+__aeabi_dadd             0x800'0d4d         Code  Gb  DblAdd.o [3]
+__aeabi_dmul             0x800'0b31         Code  Gb  DblMul.o [3]
+__aeabi_f2d              0x800'0ae9         Code  Gb  FltToDbl.o [3]
+__aeabi_ldiv0            0x800'5061         Code  Gb  I64DivZer.o [4]
+__aeabi_memclr           0x800'1911         Code  Gb  ABImemclr.o [4]
+__aeabi_uldivmod         0x800'4a41         Code  Gb  I64DivMod.o [4]
+__cmain                  0x800'8255         Code  Gb  cmain.o [4]
+__exit                   0x800'8289   0x14  Code  Gb  exit.o [5]
+__iar_Memset_word        0x800'192d         Code  Gb  ABImemset.o [4]
+__iar_dadd               0x800'1599         Code  Gb  DblSub.o [3]
+__iar_data_init3         0x800'81a5   0x28  Code  Gb  data_init.o [4]
+__iar_dsub               0x800'0d5d         Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x800'0d6f         Code  Gb  DblAdd.o [3]
+__iar_init_vfp           0x800'81f1         Code  Gb  fpinit_M.o [3]
+__iar_lz77_init_single3
+                         0x800'0cd3   0x7a  Code  Gb  lz77_init_single.o [4]
+__iar_program_start      0x800'82bb         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'133f   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'8273    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f407xx.o [1]
+_call_main               0x800'8261         Code  Gb  cmain.o [4]
+_exit                    0x800'827d         Code  Gb  cexit.o [4]
+_main                    0x800'826f         Code  Gb  cmain.o [4]
+bCOMATRTimeCounter      0x2000'07d0    0x2  Data  Lc  ui_task.o [1]
+bCOMTimeoutCounter      0x2000'07ce    0x2  Data  Lc  ui_task.o [1]
+bMCBootCompleted        0x2000'073c    0x1  Data  Gb  mc_tasks.o [1]
+bUITaskCounter          0x2000'07cc    0x2  Data  Lc  ui_task.o [1]
+exit                     0x800'8277    0x4  Code  Gb  exit.o [2]
+hBootCapDelayCounterM1  0x2000'0742    0x2  Data  Lc  mc_tasks.o [1]
+hCAN                    0x2000'091c   0x44  Data  Gb  bsp_CAN.o [1]
+hMFTaskCounterM1        0x2000'0740    0x2  Data  Lc  mc_tasks.o [1]
+hSin_Cos_Table           0x800'7418  0x200  Data  Gb  mc_math.o [1]
+hStopPermanencyCounterM1
+                        0x2000'0744    0x2  Data  Lc  mc_tasks.o [1]
+hadc1                   0x2000'09fc   0x48  Data  Gb  main.o [1]
+hadc2                   0x2000'0a44   0x48  Data  Gb  main.o [1]
+hspi1                   0x2000'09a4   0x58  Data  Gb  ADspi.o [1]
+htim1                   0x2000'0acc   0x40  Data  Gb  Handwheel_encoder.o [1]
+htim2                   0x2000'08c8   0x40  Data  Gb  main.o [1]
+htim3                   0x2000'0a8c   0x40  Data  Gb  ADtim.o [1]
+htim8                   0x2000'0b0c   0x40  Data  Gb  main.o [1]
+huart1                  0x2000'0888   0x40  Data  Gb  main.o [1]
+main                     0x800'19d1  0x19c  Code  Gb  main.o [1]
+mc_lock_pins             0x800'4e59  0x140  Code  Wk  mc_tasks.o [1]
+oMCInterface            0x2000'074c    0x4  Data  Gb  mc_tasks.o [1]
+pBusSensorM1            0x2000'0774    0x4  Data  Gb  mc_tasks.o [1]
+pCLM                    0x2000'0784    0x4  Data  Gb  mc_tasks.o [1]
+pEAC                    0x2000'0770    0x4  Data  Gb  mc_tasks.o [1]
+pMCI                    0x2000'07b0    0x4  Data  Gb  motorcontrol.o [1]
+pMCP                    0x2000'0884    0x4  Data  Gb  ui_task.o [1]
+pMCT                    0x2000'07b4    0x4  Data  Gb  motorcontrol.o [1]
+pMPM                    0x2000'0780    0x4  Data  Gb  mc_tasks.o [1]
+pPIDId                  0x2000'075c    0x4  Data  Gb  mc_tasks.o [1]
+pPIDIq                  0x2000'0758    0x4  Data  Gb  mc_tasks.o [1]
+pPIDPosition            0x2000'0764    0x4  Data  Gb  mc_tasks.o [1]
+pPIDSpeed               0x2000'0754    0x4  Data  Gb  mc_tasks.o [1]
+pREMNG                  0x2000'0788    0x4  Data  Gb  mc_tasks.o [1]
+pRLS                    0x2000'076c    0x4  Data  Gb  mc_tasks.o [1]
+pSTC                    0x2000'0750    0x4  Data  Gb  mc_tasks.o [1]
+pTemperatureSensor      0x2000'0778    0x4  Data  Gb  mc_tasks.o [1]
+pUSART                  0x2000'04cc  0x13c  Data  Gb  mc_config.o [1]
+pwmcHandle              0x2000'077c    0x4  Data  Gb  mc_tasks.o [1]
+ruleKu                   0x800'7fc4   0xc4  Data  Lc  mc_position.o [1]
+s_fwVer                  0x800'8234   0x20  Data  Gb  motorcontrol.o [1]
+speedruleKi              0x800'76dc   0xc4  Data  Lc  pid_regulator.o [1]
+speedruleKp              0x800'7618   0xc4  Data  Lc  pid_regulator.o [1]
+startTimers              0x800'5145   0x64  Code  Wk  pwm_common.o [1]
+uwTick                  0x2000'07c0    0x4  Data  Gb  stm32f4xx_hal.o [1]
+uwTickFreq              0x2000'07bc    0x1  Data  Gb  stm32f4xx_hal.o [1]
+uwTickPrio              0x2000'07c4    0x4  Data  Gb  stm32f4xx_hal.o [1]
+wConfig                 0x2000'07b8    0x4  Data  Gb  motorcontrol.o [1]
+waitForPolarizationEnd   0x800'7e7d   0x42  Code  Wk  pwm_common.o [1]
+
+
+[1] = D:\yanjiusheng\STM2\Main\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  32 468 bytes of readonly  code memory
+   1 881 bytes of readonly  data memory
+   4 018 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

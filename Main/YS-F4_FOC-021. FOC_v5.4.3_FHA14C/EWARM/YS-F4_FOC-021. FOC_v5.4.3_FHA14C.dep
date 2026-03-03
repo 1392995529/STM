@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3544843791</fileChecksum>
+    <configuration>
+        <name>YS-F4_FOC-021. FOC_v5.4.3_FHA14C</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\Src\ADgpio.c</file>
+            <file>$PROJ_DIR$\..\Src\ADspi.c</file>
+            <file>$PROJ_DIR$\..\Src\ADtim.c</file>
+            <file>$PROJ_DIR$\..\Src\bsp_CAN.c</file>
+            <file>$PROJ_DIR$\..\Src\bsp_key.c</file>
+            <file>$PROJ_DIR$\startup_stm32f407xx.s</file>
+            <file>$PROJ_DIR$\..\Src\AD7606.c</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADspi.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_exti.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\Matrx.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\virtual_speed_sensor.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\motor_power_measurement.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\bsp_CAN.pbi</file>
+            <file>$PROJ_DIR$\..\Inc\mc_parameters.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\regular_conversion_manager.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.pbd</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_can.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\pid_regulator.pbi</file>
+            <file>$PROJ_DIR$\..\Inc\stm32f4xx_it.h</file>
+            <file>$PROJ_DIR$\..\Inc\mc_stm_types.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\Inc\main.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_math.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_adc.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash_ex.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_pwr_ex.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADspi.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Exe\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.out</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_api.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\revup_ctrl.h</file>
+            <file>$PROJ_DIR$\..\Inc\Matrx.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\motorcontrol.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_math.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\enc_align_ctrl.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\enc_align_ctrl.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_config.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADgpio.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\revup_ctrl.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\flux_weakening_ctrl.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_parameters.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\pqd_motor_power_measurement.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_msp.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\pwm_common.h</file>
+            <file>$PROJ_DIR$\..\Inc\drive_parameters.h</file>
+            <file>$PROJ_DIR$\..\Inc\mc_tasks.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_tasks.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_tim.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_dma_ex.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\..\Inc\power_stage_parameters.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\mc_type.h</file>
+            <file>$PROJ_DIR$\..\Inc\mc_interface.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_adc_ex.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADtim.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\ramp_ext_mngr.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\List\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.map</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_dma.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\usart_frame_communication_protocol.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\speed_torq_ctrl.h</file>
+            <file>$PROJ_DIR$\..\Inc\bsp_CAN.h</file>
+            <file>$PROJ_DIR$\..\Inc\mc_config.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\feed_forward_ctrl.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_rcc_ex.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_it.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\sto_speed_pos_fdbk.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\system_stm32f4xx.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_can.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\virtual_speed_sensor.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\speed_pos_fdbk.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\encoder_speed_pos_fdbk.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\luenberge.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\enc_align_ctrl.o</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Inc\ui_irq_handler.h</file>
+            <file>$PROJ_DIR$\..\Inc\mc_math.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\bus_voltage_sensor.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\luenberge.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_gpio.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\virtual_bus_voltage_sensor.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\digital_output.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\pwm_curr_fdbk.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\virtual_speed_sensor.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\frame_communication_protocol.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\system_stm32f4xx.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\bsp_key.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\bus_voltage_sensor.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_interface.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\usart_frame_communication_protocol.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_mc_it.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\speed_pos_fdbk.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_pwr_ex.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h</file>
+            <file>$PROJ_DIR$\..\Inc\mc_api.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_mc_it.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\r_divider_bus_voltage_sensor.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\user_interface.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_position.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\digital_output.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\Handwheel_encoder.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\open_loop.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_api.o</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\circle_limitation.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\bsp_CAN.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\..\Inc\ADspi.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\sto_cordic_speed_pos_fdbk.h</file>
+            <file>$PROJ_DIR$\..\Inc\Handwheel_encoder.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\main.o</file>
+            <file>$PROJ_DIR$\stm32f407xx_flash.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\..\Src\mc_api.c</file>
+            <file>$PROJ_DIR$\..\Src\motor_control_protocol.c</file>
+            <file>$PROJ_DIR$\..\Src\user_interface.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</file>
+            <file>$PROJ_DIR$\..\Src\luenberge.c</file>
+            <file>$PROJ_DIR$\..\Src\mc_math.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32f4xx_hal_msp.c</file>
+            <file>$PROJ_DIR$\..\Src\mc_position.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\Src\Handwheel_encoder.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\Src\mc_interface.c</file>
+            <file>$PROJ_DIR$\..\Src\mc_parameters.c</file>
+            <file>$PROJ_DIR$\..\Src\motorcontrol.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32f4xx_mc_it.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c</file>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32f4xx_it.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\Src\Matrx.c</file>
+            <file>$PROJ_DIR$\..\Src\mc_tasks.c</file>
+            <file>$PROJ_DIR$\..\Src\ui_task.c</file>
+            <file>$PROJ_DIR$\..\Src\mc_config.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c</file>
+            <file>$PROJ_DIR$\..\Src\regular_conversion_manager.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32f4xx.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\open_loop.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\pwm_common.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\r_divider_bus_voltage_sensor.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\ramp_ext_mngr.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\bus_voltage_sensor.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\circle_limitation.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\pwm_curr_fdbk.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\F4xx\Src\r3_2_f4xx_pwm_curr_fdbk.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\speed_pos_fdbk.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\motor_power_measurement.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\encoder_speed_pos_fdbk.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\pqd_motor_power_measurement.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\pid_regulator.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\revup_ctrl.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\speed_torq_ctrl.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\state_machine.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\digital_output.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\ntc_temperature_sensor.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Src\frame_communication_protocol.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Src\ui_irq_handler.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Src\usart_frame_communication_protocol.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\enc_align_ctrl.c</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\virtual_speed_sensor.c</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_can.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ui_task.o</file>
+            <file>$PROJ_DIR$\..\Inc\mc_position.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_uart.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_uart.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\r_divider_bus_voltage_sensor.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\Handwheel_encoder.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_adc_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_usart.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\motor_control_protocol.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_system.h</file>
+            <file>$PROJ_DIR$\..\Inc\ADgpio.h</file>
+            <file>$PROJ_DIR$\..\Inc\pmsm_motor_parameters.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\bsp_key.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\mp_self_com_ctrl.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ui_irq_handler.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\pwm_curr_fdbk.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\circle_limitation.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_exti.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\digital_output.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ramp_ext_mngr.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\AD7606.__cstat.et</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\r3_2_f4xx_pwm_curr_fdbk.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\open_loop.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\Matrx.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\Inc\AD7606.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\pqd_motor_power_measurement.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\pwm_common.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\speed_torq_ctrl.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\AD7606.o</file>
+            <file>$PROJ_DIR$\..\Inc\motor_control_protocol.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\pqd_motor_power_measurement.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\pid_regulator.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ui_irq_handler.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADgpio.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash_ramfunc.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\speed_pos_fdbk.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_it.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_tim_ex.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\motor_control_protocol.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_rcc.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_position.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_bus.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\motorcontrol.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_config.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\state_machine.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\user_interface.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_parameters.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\state_machine.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dma.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_spi.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
+            <file>$PROJ_DIR$\..\Inc\ui_task.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\AD7606.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ramp_ext_mngr.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\startup_stm32f407xx.o</file>
+            <file>$PROJ_DIR$\..\Inc\parameters_conversion.h</file>
+            <file>$PROJ_DIR$\..\Inc\parameters_conversion_f4xx.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_spi.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ntc_temperature_sensor.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ADtim.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_tim.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\F4xx\Inc\r3_2_f4xx_pwm_curr_fdbk.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\ntc_temperature_sensor.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\sto_pll_speed_pos_fdbk.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\pwm_curr_fdbk.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\frame_communication_protocol.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\encoder_speed_pos_fdbk.h</file>
+            <file>$PROJ_DIR$\..\Inc\luenberge.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\open_loop.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_exti.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ui_task.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\r3_2_f4xx_pwm_curr_fdbk.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\pwm_common.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\mp_one_touch_tuning.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_tasks.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_tim.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\r_divider_bus_voltage_sensor.h</file>
+            <file>$PROJ_DIR$\..\Inc\stm32f4xx_hal_conf.h</file>
+            <file>$PROJ_DIR$\..\Inc\regular_conversion_manager.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_adc.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_cortex.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\ntc_temperature_sensor.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Exe\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.hex</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Inc\frame_communication_protocol.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\mc_interface.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Inc\usart_frame_communication_protocol.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\circle_limitation.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_dac.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\regular_conversion_manager.pbi</file>
+            <file>$PROJ_DIR$\..\Inc\fuzzypi.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\trajectory_ctrl.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_ll_gpio.h</file>
+            <file>$PROJ_DIR$\..\Inc\bsp_key.h</file>
+            <file>$PROJ_DIR$\..\Inc\user_interface.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\encoder_speed_pos_fdbk.pbi</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\motor_power_measurement.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_msp.o</file>
+            <file>$PROJ_DIR$\..\Inc\ADtim.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_adc.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_flash_ramfunc.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\pid_regulator.o</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\speed_torq_ctrl.pbi</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\motor_power_measurement.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\mc_tuning.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\Inc\motorcontrol.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\bus_voltage_sensor.h</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_dma_ex.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\stm32f4xx_hal_pwr.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\state_machine.pbi</file>
+            <file>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Obj\revup_ctrl.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM2\Main\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Src\main.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\STM2\Main\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 68 32</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\ADgpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 243</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263 49 319 8 101 261 80 26 33 218 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 209 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\ADspi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115 296 257 49 239 127 8 230 271 108 9 330 261 80 101 40 317 126 21 19 256 212 293 333 116 26 319 263 33 218 25 272 238 286 340 125 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\ADtim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 274</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 322 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26 218 49 8 33 319 261 80 101 263 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 322 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\bsp_CAN.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 319 101 34 261 218 46 263 241 339 41 238 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 236 119 8 316 72 25 333 272 286 340 116 80 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\bsp_key.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 313 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 319 33 49 8 218 261 80 101 263 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 313 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32f407xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 267</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\AD7606.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 234</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 265</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 223</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 209 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 125 322 229</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 272 218 8 26 33 319 322 263 25 238 286 340 125 229 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 333 261 116 80 49 209 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Exe\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 302</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 131 234 243 7 65 123 97 98 306 114 85 83 95 117 89 130 227 120 45 99 27 51 250 57 207 320 39 301 118 326 52 232 280 288 203 221 18 338 105 233 267 254 202 324 205 79 225 38 59 219 276 124 325 222 321 217 30 107 299 262 292 17 199 246 103 78 242 197 102 112 12 331 228 14 294</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mc_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 259 71 240 310 122 82 109 73 36 94 77 215 278 297 295 334 91 231 328 314 329 279 128 92 284 74 50 213 67 121 290 311 44 282 235 303 305 277</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 240 271 206 9 277 62 293 25 230 108 101 50 82 295 8 208 212 272 239 115 127 257 316 263 278 71 94 259 73 24 58 260 330 333 339 34 40 317 126 21 19 256 261 41 231 121 297 334 36 284 282 303 109 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 235 44 77 215 328 63 128 213 67 290 310 122 91 314 305 329 279 92 74 311</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\motor_control_protocol.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 207</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 248</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 314 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 63 259 71 240 310 122 82 329 36 94 77 215 279 128 92 328 231 334 284 278 297 74 50 213 67 121 295 290 311 44 282 235 303 109 198 210</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71 101 115 257 316 62 334 8 208 212 293 272 239 127 49 63 206 25 230 271 108 9 80 128 297 82 109 259 24 58 260 330 333 339 34 40 317 126 21 19 256 261 116 328 213 215 77 284 44 235 198 329 132 236 119 241 28 312 307 251 263 319 218 296 33 238 286 340 240 36 50 94 279 282 303 314 41 310 122 92 231 278 74 311 67 121 295 290 210</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\user_interface.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 255</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 87 73 240 310 122 36 71 82 94 77 215 278 297 295 334 91 231 328 314 63 259 329 279 128 92 284 74 50 213 67 121 290 311 44 282 235 303 305 277 198 210</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116 101 312 334 282 319 293 263 277 62 36 198 261 236 119 251 218 8 278 82 24 284 121 303 73 132 241 28 307 296 33 238 286 340 240 231 122 77 329 259 71 50 94 295 87 314 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 80 49 235 44 310 297 128 328 213 67 290 215 91 305 63 279 92 74 311 210</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 202</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 126 49 40 19 8 317 21 256 212 293 261 80 101 296 230 239 271 115 108 127 9 257 330 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\luenberge.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 283 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 109 63 259 71 240 310 122 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 293 319 312 101 116 261 236 119 251 218 263 8 80 49 259 62 132 241 28 307 296 33 238 286 340 82 122 109 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 63 310 283 71 240</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mc_math.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 333 21 101 260 261 24 330 34 317 256 58 339 40 126 19 41 62 293 8 208 206 212 25 272 230 239 271 115 108 127 9 257 316 263 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 324</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 298</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263 49 8 101 261 80 33 319 218 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 317 49 256 212 293 21 8 40 126 19 261 80 101 230 239 271 115 108 127 9 257 330 333 116 296 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32f4xx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 321</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49 101 8 319 263 261 80 33 218 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 26 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mc_position.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 250</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 198 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 210 240 310 122 82 56 329 36 71 94 77 215 279 128 92 328 231 334 284 278 297 74 50 259 213 67 121 295 290 311 44 282 63 309</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263 240 251 334 62 119 8 329 132 261 236 218 80 82 279 210 312 319 293 101 116 128 56 241 28 307 296 33 238 286 340 328 213 215 94 282 309 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 36 71 284 50 297 44 198 49 310 122 63 92 231 278 74 259 311 77 67 121 295 290</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 225</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 300</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271 9 49 230 108 330 8 296 239 115 127 257 261 80 101 40 317 126 21 19 256 212 293 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Handwheel_encoder.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 317 256 212 293 49 21 8 40 126 19 261 80 101 296 230 239 271 115 108 127 9 257 330 333 116 26 319 263 33 218 25 272 238 286 340 129 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 205</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 49 8 263 261 80 33 319 218 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 49 8 263 261 80 33 319 218 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mc_interface.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 304</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 71 240 310 122 82 63 259</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 259 8 101 307 132 263 296 62 310 241 28 33 238 286 340 63 261 236 119 312 251 319 218 293 116 80 49 71 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 82 122 87 240</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mc_parameters.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 258</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 268 87 62 132 24 208 28 58 312 206 307 260 251 269 210 61 55 277 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263 230 108 330 55 271 9 333 116 101 293 251 319 239 115 127 257 261 8 80 49 62 312 61 277 40 317 126 21 19 256 212 25 272 238 286 340 269 24 28 307 268 296 33 218 236 119 241 339 34 316 41 87 210 132 208 58 206 260 26 215</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\motorcontrol.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 252</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 329 62 132 24 208 28 58 312 206 307 260 251 240 310 122 36 71 82 94 77 215 279 128 92 328 231 334 284 278 297 74 50 259 213 67 121 295 290 311 44 282 63 56 264 314 235 303 305 86 332 73 91 277 268 87 269 210 61 55 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 284 307 334 67 263 34 261 297 82 71 303 259 264 241 339 41 36 240 62 91 210 63 296 33 319 218 293 236 119 8 316 50 24 28 94 44 73 305 55 329 56 332 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 25 333 272 238 286 340 116 80 49 128 328 213 312 251 215 132 279 282 314 86 109 87 61 26 92 231 278 74 311 208 58 206 260 310 122 77 121 295 290 235 268 277 269</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32f4xx_mc_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 73 240 310 122 36 71 82 94 77 215 278 297 295 334 91 231 328 314 63 259 329 279 128 92 284 74 50 213 67 121 290 311 44 282 235 303 305 277 56 264 86 268 87 269 210 61 55 332 109 10 72 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 293 82 92 319 215 259 303 61 263 312 101 116 36 297 71 77 279 86 268 261 236 119 251 218 8 80 314 334 62 329 56 10 132 241 28 307 296 33 238 286 340 282 278 240 87 73 264 332 72 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 94 91 305 67 328 63 231 74 311 284 210 49 295 235 277 44 121 310 122 128 50 213 290 269 55 109 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 335</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 239 127 49 296 115 257 8 230 271 108 9 330 261 80 101 40 317 126 21 19 256 212 293 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 332 73 240 62 132 24 208 28 58 312 206 307 260 251 310 122 36 71 82 94 77 215 278 297 295 334 91 231 328 314 63 259 329 279 128 92 284 74 50 213 67 121 290 311 44 282 235 303 305 277 268 87 269 210 61 55 109 313 104 323 46 125 322 209 229 72 198 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62 61 119 8 101 279 215 322 33 319 293 261 236 316 238 104 198 296 218 282 251 263 278 240 314 313 229 241 339 34 41 49 36 312 82 297 334 259 71 92 77 303 87 63 332 109 46 125 209 72 129 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 25 333 272 286 340 116 80 268 94 91 305 67 24 28 307 132 328 231 74 311 284 210 26 73 295 235 277 44 121 310 208 58 206 260 122 329 128 50 213 290 269 55 323</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32f4xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 246</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 21 236 293 261 317 256 212 316 40 126 19 119 8 296 230 239 271 115 108 127 9 257 330 23 319 263 33 218 241 339 34 41 26 25 333 272 238 286 340 116 80 49</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 219</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 285</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 330 108 230 49 271 9 8 296 239 115 127 257 261 80 101 40 317 126 21 19 256 212 293 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 276</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127 239 49 296 115 257 8 230 271 108 9 330 261 80 101 40 317 126 21 19 256 212 293 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 230 108 330 49 271 9 8 296 239 115 127 257 261 80 101 40 317 126 21 19 256 212 293 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\Matrx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 227</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 46 261 8 236 119 241 238 318 60 104 323 62 293 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 109 63 259 71 240 310 122 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 206 293 271 9 101 46 238 25 230 108 316 261 8 208 212 272 239 115 127 257 259 104 24 58 260 330 333 339 34 40 317 126 21 19 256 41 263 62 82 122 109 318 236 119 241 60 323 132 28 312 307 251 319 218 296 33 286 340 116 80 49 63 310 37 71 240</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mc_tasks.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 291</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 62 132 24 208 28 58 312 206 307 260 251 87 332 73 240 310 122 36 71 82 94 77 215 278 297 295 334 91 231 328 314 63 259 329 279 128 92 284 74 50 213 67 121 290 311 44 282 235 303 305 277 268 269 210 61 55 109 54 56 198 283 37 46 318 60 104 323</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 230 28 121 77 41 329 108 330 71 94 259 240 271 9 333 101 122 82 62 297 198 319 239 115 127 257 261 8 24 231 50 295 210 323 87 56 37 40 317 126 21 19 256 212 293 25 272 238 286 307 263 109 278 277 334 36 284 282 303 55 63 332 92 54 268 283 296 33 218 236 119 241 339 34 316 312 251 73 235 44 310 128 328 213 67 290 269 318 60 26 340 116 80 49 132 208 58 206 260 215 91 314 305 279 74 311 61 46 104</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\ui_task.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 197</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 287</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 264 314 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 63 259 71 240 310 122 82 329 36 94 77 215 279 128 92 328 231 334 284 278 297 74 50 213 67 121 295 290 311 44 282 235 303 305 86 73 91 277 268 87 269 210 61 55 109</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 330 259 256 101 303 290 24 34 317 263 77 334 67 260 333 21 261 82 240 279 71 58 339 40 126 19 41 92 62 94 91 210 268 314 86 63 293 8 208 206 212 25 272 230 239 271 115 108 127 9 257 316 122 278 36 305 55 73 109 235 329 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 310 231 74 311 121 295 215 282 87 61 264 128 328 284 50 213 297 44 277 269</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mc_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 253</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 62 132 24 208 28 58 312 206 307 260 251 268 87 269 210 61 55 16 277 215 73 240 310 122 36 71 82 94 77 278 297 295 334 91 231 328 314 63 259 329 279 128 92 284 74 50 213 67 121 290 311 44 282 235 303 305</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 206 101 71 263 277 334 282 34 261 8 62 36 73 241 339 41 55 278 310 24 284 121 303 268 296 33 319 218 293 236 119 316 132 208 269 240 231 82 329 259 50 94 295 16 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 25 333 272 238 286 340 116 80 49 58 260 210 215 235 44 122 77 297 128 328 213 67 290 26 28 312 307 251 87 61 91 314 305 63 279 92 74 311</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 325</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 244</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 271 9 49 230 108 330 8 296 239 115 127 257 261 80 101 40 317 126 21 19 256 212 293 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\regular_conversion_manager.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 308</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 297 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 73 240 62 310 122 36 71 82 94 77 215 278 295 334 91 231 328 314 63 259 329 279 128 92 284 74 50 213 67 121 290 311 44 282 235 303 305 277</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 286 241 240 101 33 340 82 132 28 238 235 50 295 307 263 8 296 71 215 293 329 259 94 62 261 236 119 312 251 319 218 116 80 49 44 334 36 284 121 282 303 73 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 278 231 277 310 128 328 213 67 290 297 91 314 305 122 77 63 279 92 74 311</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 222</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 319 49 8 218 261 80 101 263 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\system_stm32f4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263 49 218 8 319 261 80 101 293 236 119 116 212 330 241 339 34 33 238 286 340 25 333 272 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\open_loop.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 226</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 284 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 94 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 316 24 115 257 263 8 208 212 293 272 239 127 82 206 25 230 271 108 9 94 58 260 330 333 339 34 40 317 126 21 19 256 261 41 62 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 284</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 292</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 275</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115 257 49 8 239 127 261 80 101 230 271 108 9 330 333 116 40 317 126 21 19 256 212 293 25 272 238 286 340 319 296 263 33 218 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 247</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40 19 49 126 8 317 21 256 212 293 261 80 101 296 230 239 271 115 108 127 9 257 330 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\pwm_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 232</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 289</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218 261 236 80 101 132 119 251 263 8 49 62 312 319 293 116 241 28 307 296 33 238 286 340 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 54</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\r_divider_bus_voltage_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 203</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 295 297 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 334 62 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 101 206 271 25 230 108 293 334 8 208 212 272 239 115 127 257 316 263 24 58 260 330 333 339 34 40 317 126 21 19 256 261 41 297 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 215 295 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 217</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 336</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19 40 49 126 8 317 21 256 212 293 261 80 101 296 230 239 271 115 108 127 9 257 330 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\ramp_ext_mngr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 221</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 266</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 263 115 257 316 8 208 212 293 272 239 127 206 25 230 271 108 9 62 24 58 260 330 333 339 34 40 317 126 21 19 256 261 41 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\bus_voltage_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 334 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116 101 312 62 319 293 261 236 119 251 218 263 8 80 49 132 241 28 307 296 33 238 286 340 215 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 334</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 199</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49 126 40 19 8 317 21 256 212 293 261 80 101 230 239 271 115 108 127 9 257 330 333 116 296 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 249</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 49 263 8 101 261 80 33 319 218 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 319 49 8 218 261 80 101 263 333 116 296 40 230 317 239 126 271 21 115 19 108 256 127 9 257 212 330 293 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\circle_limitation.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 306</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263 296 101 132 307 8 241 28 33 238 286 340 62 261 236 119 312 251 319 218 293 116 80 49 87 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 121</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\pwm_curr_fdbk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 280</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 215 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28 238 101 241 33 286 340 263 132 307 8 296 261 236 119 312 251 319 218 293 116 80 49 62 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 215</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\F4xx\Src\r3_2_f4xx_pwm_curr_fdbk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 288</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 224</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 277 215 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263 206 271 9 101 293 25 230 108 8 208 212 272 239 115 127 257 316 62 215 24 58 260 330 333 339 34 40 317 126 21 19 256 261 41 54 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 277</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\speed_pos_fdbk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 245</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82 293 261 8 236 119 241 62 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 263 236 260 261 333 21 101 119 330 34 317 256 62 132 58 339 40 126 19 41 241 208 206 212 293 25 272 230 239 271 115 108 127 9 257 8 316 24 28 312 307 251 319 218 296 33 238 286 340 116 80 49 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\motor_power_measurement.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 320</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 328 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119 8 132 251 263 49 261 236 218 80 101 312 319 293 116 241 28 307 296 33 238 286 340 62 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 328</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\encoder_speed_pos_fdbk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 315</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 282 82 293 261 8 236 119 241 62 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 132 101 316 115 257 263 208 212 293 272 239 127 8 261 236 119 206 25 230 271 108 9 82 241 58 260 330 333 339 34 40 317 126 21 19 256 41 62 24 28 312 307 251 319 218 296 33 238 286 340 116 80 49 282</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\pqd_motor_power_measurement.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 237</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 231 328 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 334 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8 101 307 62 132 263 296 328 241 28 33 238 286 340 261 236 119 312 251 319 218 293 116 80 49 334 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 215 231</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\pid_regulator.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 326</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 240 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 310 122 198 210 309</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 330 256 101 24 34 317 260 333 21 261 58 339 40 126 19 41 263 198 62 293 8 208 206 212 25 272 230 239 271 115 108 127 9 257 316 210 309 310 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 240 122</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\revup_ctrl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 338</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 71 240 310 122 82 94 77 215</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 307 8 263 62 71 132 296 241 28 33 238 286 340 77 261 236 119 312 251 319 218 293 116 80 49 240 94 215 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 82 36 310 122</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\speed_torq_ctrl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 233</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 327</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 240 310 122 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 116 312 319 293 82 261 236 119 251 218 263 8 80 49 62 132 241 28 307 296 33 238 286 340 122 240 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 310 71</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\state_machine.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 254</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 337</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 259 293 261 8 236 119 241 62 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 286 263 33 340 293 28 238 307 8 296 24 312 251 319 218 261 116 80 49 62 236 119 241 132 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 259</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\digital_output.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 220</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 293 319 312 101 116 132 261 236 119 251 218 263 8 80 49 241 28 307 296 33 238 286 340 62 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 92</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 262</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 270</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127 49 239 115 257 8 230 271 108 9 330 261 80 101 40 317 126 21 19 256 212 293 333 116 296 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\ntc_temperature_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 301</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 273</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 278 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 297</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 261 293 260 333 21 101 263 330 34 317 256 58 339 40 126 19 41 297 24 8 208 206 212 25 272 230 239 271 115 108 127 9 257 316 62 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 278</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Src\frame_communication_protocol.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 281</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 314 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 63 259 71 240 310 122 82 329 36 94 77 215 279 128 92 328 231 334 284 278 297 74 50 213 67 121 295 290 311 44 282 235 303</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 317 101 34 24 62 259 330 256 92 260 333 21 261 240 94 58 339 40 126 19 41 263 77 82 334 290 279 71 303 63 293 8 208 206 212 25 272 230 239 271 115 108 127 9 257 316 122 278 67 36 314 235 329 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 310 231 74 311 121 295 128 328 284 50 213 215 297 44 282</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Src\ui_irq_handler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 242</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 316 24 115 257 263 62 8 208 212 293 272 239 127 206 25 230 271 108 9 58 260 330 333 339 34 40 317 126 21 19 256 261 41 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 86</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 299</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319 296 40 101 263 212 330 293 261 8 236 119 241 25 333 339 34 272 218 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40 19 49 126 8 317 21 256 212 293 261 80 101 296 230 239 271 115 108 127 9 257 330 333 116 263 33 319 218 25 272 238 286 340 236 119 241 339 34 316 41</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Src\usart_frame_communication_protocol.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 305 303 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 261 303 260 333 21 101 263 24 330 34 317 256 58 339 40 126 19 41 293 8 208 206 212 25 272 230 239 271 115 108 127 9 257 316 86 62 132 236 119 241 28 312 307 251 319 218 296 33 238 286 340 116 80 49 305</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\enc_align_ctrl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 62 293 261 8 236 119 241 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251 71 240 310 122 82 94 282</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 293 319 94 312 101 116 261 236 119 251 218 263 8 80 49 62 82 132 241 28 307 296 33 238 286 340 71 282 24 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 310 122 44 240</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Src\virtual_speed_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94 82 293 261 8 236 119 241 62 132 24 208 263 212 330 25 333 339 34 272 218 319 296 40 101 257 33 238 9 230 317 286 239 340 126 271 316 21 115 41 116 19 80 108 256 49 127 28 58 312 206 307 260 251</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 80 261 101 218 8 251 263 49 24 312 319 293 116 82 28 307 296 33 238 286 340 62 236 119 241 132 208 58 206 260 212 330 25 333 272 339 34 40 230 317 239 126 271 21 115 19 108 256 127 9 257 316 41 94</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>

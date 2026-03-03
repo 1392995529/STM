@@ -1,0 +1,15 @@
+D:\STM\iar\arm\bin\armPROC.dll
+
+ D:\STM\iar\arm\bin\armSTLINK.dll
+
+ "D:\STM\STM2 PI\Main\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021. FOC_v5.4.3_FHA14C\Exe\YS-F4_FOC-021. FOC_v5.4.3_FHA14C.out"
+
+ --plugin=D:\STM\iar\arm\bin\armLibSupportUniversal.dll
+
+ --device_macro=D:\STM\iar\arm/config/debugger/ST/STM32F4xx.dmac
+
+ --flash_loader=D:\STM\iar\arm/config/flashloader/ST/FlashSTM32F4xxx.board
+
+ 
+
+
