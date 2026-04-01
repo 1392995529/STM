@@ -1,4 +1,5 @@
 D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\BrowseInfo\User_8454777428142420917.dir\motorcontrol.pbi: \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\Src\motorcontrol.c \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\main.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\stm32f4xx_hal_conf.h \
@@ -67,6 +68,7 @@ D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.\ FO
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\open_loop.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\ntc_temperature_sensor.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\regular_conversion_manager.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\mc_stm_types.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\feed_forward_ctrl.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\flux_weakening_ctrl.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\state_machine.h \
@@ -79,22 +81,37 @@ D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.\ FO
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\enc_align_ctrl.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\encoder_speed_pos_fdbk.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\mc_interface.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\mc_type.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\state_machine.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\speed_torq_ctrl.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\mc_tasks.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\mc_interface.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\ui_task.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\user_interface.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\motor_control_protocol.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Inc\frame_communication_protocol.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Inc\usart_frame_communication_protocol.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Inc\frame_communication_protocol.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\UILibrary\Inc\ui_irq_handler.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\motorcontrol.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\mc_config.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\pid_regulator.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\revup_ctrl.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\virtual_speed_sensor.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\ntc_temperature_sensor.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\pwm_curr_fdbk.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\r_divider_bus_voltage_sensor.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\virtual_bus_voltage_sensor.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\pqd_motor_power_measurement.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\F4xx\Inc\r3_2_f4xx_pwm_curr_fdbk.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\encoder_speed_pos_fdbk.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\enc_align_ctrl.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\ramp_ext_mngr.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\MCSDK_v5.4.3-Full\MotorControl\MCSDK\MCLib\Any\Inc\circle_limitation.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\parameters_conversion.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\mc_math.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\parameters_conversion_f4xx.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\pmsm_motor_parameters.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\power_stage_parameters.h \
   D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\drive_parameters.h \
-  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\mc_api.h \
-  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\Src\motorcontrol.c
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\mc_api.h

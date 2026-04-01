@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\Exe\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.out</Path>
+            <Output>
+                <Path>D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\List\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

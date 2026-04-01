@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\IAR\common\bin\cspybat" -f "D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.general.xcl" --backend -f "D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.driver.xcl" 
+& "D:\STM\iar\common\bin\cspybat" -f "D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.general.xcl" --backend -f "D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.driver.xcl" 
 }
 else
 {
-& "D:\IAR\common\bin\cspybat" -f "D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.general.xcl" --debug_file=$debugfile --backend -f "D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.driver.xcl" 
+& "D:\STM\iar\common\bin\cspybat" -f "D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.general.xcl" --debug_file=$debugfile --backend -f "D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.driver.xcl" 
 }

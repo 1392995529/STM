@@ -1,0 +1,42 @@
+D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\BrowseInfo\User_8454777428142420917.dir\ADspi.pbi: \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\Src\ADspi.c \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\ADspi.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\main.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Inc\stm32f4xx_hal_conf.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\CMSIS\Include\core_cm4.h \
+  D:\STM\iar\arm\inc\c\stdint.h D:\STM\iar\arm\inc\c\ycheck.h \
+  D:\STM\iar\arm\inc\c\yvals.h D:\STM\iar\arm\inc\c\DLib_Defaults.h \
+  D:\STM\iar\arm\inc\c\DLib_Config_Full.h \
+  D:\STM\iar\arm\inc\c\DLib_Product.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\CMSIS\Include\cmsis_version.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\CMSIS\Include\cmsis_iccarm.h \
+  D:\STM\iar\arm\inc\c\aarch32\iccarm_builtin.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\CMSIS\Include\mpu_armv7.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  D:\STM\iar\arm\inc\c\stddef.h D:\STM\iar\arm\inc\c\ysizet.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_adc_ex.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_can.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_spi.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_tim_ex.h \
+  D:\STM\STM2\ PI\H_FPI\YS-F4_FOC-021.\ FOC_v5.4.3_FHA14C\EWARM\..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h

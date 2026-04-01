@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\IAR\common\bin\cspybat" -f "D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.general.xcl" --backend -f "D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.driver.xcl" 
+"D:\STM\iar\common\bin\cspybat" -f "D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.general.xcl" --backend -f "D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\IAR\common\bin\cspybat" -f "D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.general.xcl" "--debug_file=%~1" --backend -f "D:\yanjiusheng\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.driver.xcl" 
+"D:\STM\iar\common\bin\cspybat" -f "D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.general.xcl" "--debug_file=%~1" --backend -f "D:\STM\STM2 PI\P_FPI\YSF4_HAL_MOTOR-658. FOC_v5.4.3_42PMSM_encoder\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder\EWARM\settings\YS-F4_FOC-021. FOC_v5.4.3_42PMSM_encoder.YS-F4_FOC-021._FOC_v5.4.3_42PMSM_encoder.driver.xcl" 
 
 @echo off 
 :end
